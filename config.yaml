@@ -1,0 +1,119 @@
+baseURL: /
+title: Spectral
+languageCode: en-us
+defaultContentLanguage: en
+paginate: '7'
+theme: spectral
+params:
+  body_is_markdown: yes
+  contact:
+    address: 1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country
+    body: Leave us a message.
+    email: nospam@example.com
+    enable: yes
+    formspree_form_id: example_invalid
+    phone: +49 (0) 030 000 000
+    subject: New Submission!
+    title: Contact
+  copyright: John Doe
+  cta:
+    body: Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend
+      fringilla.
+    enable: yes
+    link:
+      - href: '#'
+        special: yes
+        text: Activate
+      - href: '#'
+        special: no
+        text: Learn More
+    title: Arcue ut vel commodo
+  description: Another fine responsive<br />site template freebie<br />crafted by
+    <a href="http://html5up.net">HTML5 UP</a>.<br />Ported to <a href="//gohugo.io">Hugo</a>
+    by Simon Bruder.
+  fancyTitle: Spectral
+  menu:
+    main:
+      - title: Home
+        url: /
+      - title: Posts
+        url: /posts/
+  one:
+    body: "Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
+      \ \r\nfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.\r\n"
+    enable: yes
+    icon:
+      - icon: fa-diamond
+        label: Lorem
+        style: '1'
+      - icon: fa-heart-o
+        label: Ipsum
+        style: '2'
+      - icon: fa-code
+        label: Dolor
+        style: '3'
+    title: Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep
+      donec
+  social:
+    dribble: ''
+    facebook: ''
+    instagram: ''
+    twitter: ''
+  startbuttonLink: '#'
+  startbuttonText: Activate
+  three:
+    body: "Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend
+      \ \r\nfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.\r\n"
+    enable: yes
+    feature:
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-paper-plane-o
+        title: Arcu accumsan
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-laptop
+        title: Ac Augue Eget
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-code
+        title: Foo bar
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-headphones
+        title: Baz kram
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-heart-o
+        title: Some latin text
+      - body: Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt
+          nullam amet leo Aenean ligula consequat consequat.
+        icon: fa-flag-o
+        title: Nothing important
+    title: Accumsan mus tortor nunc aliquet
+  two:
+    enable: yes
+    section:
+      - body: Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet.
+          Mauris eleifend fringilla nullam aenean mi ligula.
+        img: img/pic01.jpg
+        title: Magna primis lobortis<br />sed ullamcorper
+      - body: Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet.
+          Mauris eleifend fringilla nullam aenean mi ligula.
+        img: img/pic02.jpg
+        title: Tortor dolore feugiat<br />elementum magna
+      - body: Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet.
+          Mauris eleifend fringilla nullam aenean mi ligula.
+        img: img/pic03.jpg
+        title: Magna primis lobortis<br />sed ullamcorper
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+languages:
+  de:
+    languageName: Deutsch
+    weight: 10
+  en:
+    languageName: English
+    weight: 0
